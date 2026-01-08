@@ -17,7 +17,7 @@ source:
     - patches/0005-fix-installation-of-configured-config.hpp-file.patch
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:
@@ -42,7 +42,7 @@ tests:
         - tight_inclusion/config.hpp
         - tight_inclusion/ccd.hpp
   - script:
-    - cmake-package-check tight_inclusion
+      - cmake-package-check tight_inclusion
     requirements:
       run:
         - cmake-package-check
