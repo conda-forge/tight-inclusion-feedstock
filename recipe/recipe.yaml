@@ -17,7 +17,7 @@ source:
     - patches/0005-fix-installation-of-configured-config.hpp-file.patch
 
 build:
-  number: 1
+  number: 2
 
 requirements:
   build:
