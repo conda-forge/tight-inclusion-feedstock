@@ -17,7 +17,7 @@ source:
     - patches/0005-fix-installation-of-configured-config.hpp-file.patch
 
 build:
-  number: 2
+  number: 3
 
 requirements:
   build:
@@ -28,6 +28,7 @@ requirements:
   host:
     - eigen
     - spdlog
+    - eigen-abi-devel
   run:
     - eigen
     - spdlog
