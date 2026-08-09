@@ -1,5 +1,5 @@
 context:
-  version: 1.0.6
+  version: "1.1.0"
 
 package:
   name: tight-inclusion
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://github.com/Continuous-Collision-Detection/Tight-Inclusion/archive/refs/tags/v${{ version }}.tar.gz
-  sha256: ed44caa4b253371637beeadefb064333174bb79ef7a0fb7ae09a40206e2e8b5f
+  sha256: a8c4b1ec9af1d5bfe218cc336263d8dcc1f701f60ce0fb367d602e59cb192d36
 
   patches:
     - patches/0001-Export-target-install-header-in-right-dir-still-need.patch
@@ -17,7 +17,7 @@ source:
     - patches/0005-fix-installation-of-configured-config.hpp-file.patch
 
 build:
-  number: 4
+  number: 0
 
 requirements:
   build:
